@@ -1,3 +1,37 @@
 header {
     font-family:'Philosopher';
+    color:white;
+    right:0;
+    top:0;
+    margin-right:10px;
+    position: fixed;
+    z-index:1000;
+    /* used AI to find out how to do the z-index */
+}
+
+body{
+    font-family: 'Philosopher';
+}
+
+ul{
+    list-style-type: none;
+    margin:10;
+    padding:0;
+    background-color: #12233d;
+    position:fixed;
+    height:50px;
+    top:0;
+    width:100%;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li{
+    float:left;
 }
