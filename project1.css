@@ -1,6 +1,6 @@
 header {
     font-family:'Philosopher';
-    color:white;
+    color:#12233d;
     right:0;
     top:0;
     margin-right:10px;
@@ -11,22 +11,24 @@ header {
 
 body{
     font-family: 'Philosopher';
+    background-color: #12233d;
 }
 
 ul{
     list-style-type: none;
     margin:10;
     padding:0;
-    background-color: #12233d;
+    background-color: #d1dee2;
     position:fixed;
     height:50px;
+    left:0;
     top:0;
     width:100%;
 }
 
 li a{
     display: block;
-    color: white;
+    color: #12233d;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
