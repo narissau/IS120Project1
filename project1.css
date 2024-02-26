@@ -1,23 +1,46 @@
-.navbar{
-    background-color: #2a3d45;
+:root{
+    --sixty: #2a3d45;
+    --thirty: #d1dee2;
+    --ten: #004956;
 }
 
+.body{
+    background-color:var(--sixty);
+    margin:0;
+}
 
-
-body {
+.navbar{
+    background-color:var(--thirty);
     font-family: 'Philosopher';
 }
 
-
-/* :root{
-    --sixty:red;
-    --thirty:
-    --ten:
+.navbar-brand{
+    color: var(--sixty);
+    font-weight: bold;
 }
 
-.btn{
+.nav-link {
+    color: var(--sixty);
+}
+
+
+
+.row{
+    color:var(--thirty);
     background-color: var(--sixty);
-} */
+    font-family: 'Philosopher';
+    height:300px;
+}
+
+.custom-padding{
+    padding-top:10vh;
+    padding-left:20vh;
+}
+
+
+
+
+
 
 
 /* header {
