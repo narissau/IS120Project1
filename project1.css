@@ -1,4 +1,26 @@
-header {
+.navbar{
+    background-color: #2a3d45;
+}
+
+
+
+body {
+    font-family: 'Philosopher';
+}
+
+
+/* :root{
+    --sixty:red;
+    --thirty:
+    --ten:
+}
+
+.btn{
+    background-color: var(--sixty);
+} */
+
+
+/* header {
     font-family:'Philosopher';
     color:#12233d;
     right:0;
@@ -6,13 +28,11 @@ header {
     margin-right:10px;
     position: fixed;
     z-index:1000;
-    /* used AI to find out how to do the z-index */
+    used AI to find out how to do the z-index
 }
 
-body{
-    font-family: 'Philosopher';
-    background-color: #12233d;
-}
+
+
 
 ul{
     list-style-type: none;
@@ -36,4 +56,4 @@ li a{
 
 li{
     float:left;
-}
+} */
