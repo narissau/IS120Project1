@@ -1,35 +1,39 @@
 :root {
-    --sixty: #12233d;
-    --thirty: #d1dee2;
-    --ten: #004956;
+    --primary: #12233d !important;
+    --secondary: #d1dee2 !important;
+    --tertiary: #004956 !important;
 }
 
 .body {
-    background-color: var(--sixty);
+    background-color: var(--primary);
     margin: 0;
 }
 
 .navbar {
-    background-color: var(--thirty);
+    background-color: var(--secondary);
     font-family: 'Philosopher';
 }
 
 .navbar-brand {
-    color: var(--sixty);
+    color: var(--primary);
     font-weight: bold;
 }
 
 .nav-link {
-    color: var(--sixty);
+    color: var(--primary);
 }
 
 
 .row {
-    color: var(--thirty);
-    background-color: var(--sixty);
+    color: var(--secondary);
     font-family: 'Philosopher';
-    height: 300px;
 }
+
+.custom-style-1{
+    height:500px;
+    background-color: var(--primary);
+}
+
 
 .custom-padding {
     padding-top: 10vh;
@@ -42,46 +46,3 @@
     max-height:200px;
     display:block;
 }
-
-
-
-
-
-
-/* header {
-    font-family:'Philosopher';
-    color:#12233d;
-    right:0;
-    top:0;
-    margin-right:10px;
-    position: fixed;
-    z-index:1000;
-    used AI to find out how to do the z-index
-}
-
-
-
-
-ul{
-    list-style-type: none;
-    margin:10;
-    padding:0;
-    background-color: #d1dee2;
-    position:fixed;
-    height:50px;
-    left:0;
-    top:0;
-    width:100%;
-}
-
-li a{
-    display: block;
-    color: #12233d;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li{
-    float:left;
-} */
