@@ -1,20 +1,20 @@
-:root{
-    --sixty: #2a3d45;
+:root {
+    --sixty: #12233d;
     --thirty: #d1dee2;
     --ten: #004956;
 }
 
-.body{
-    background-color:var(--sixty);
-    margin:0;
+.body {
+    background-color: var(--sixty);
+    margin: 0;
 }
 
-.navbar{
-    background-color:var(--thirty);
+.navbar {
+    background-color: var(--thirty);
     font-family: 'Philosopher';
 }
 
-.navbar-brand{
+.navbar-brand {
     color: var(--sixty);
     font-weight: bold;
 }
@@ -24,19 +24,24 @@
 }
 
 
-
-.row{
-    color:var(--thirty);
+.row {
+    color: var(--thirty);
     background-color: var(--sixty);
     font-family: 'Philosopher';
-    height:300px;
+    height: 300px;
 }
 
-.custom-padding{
-    padding-top:10vh;
-    padding-left:20vh;
+.custom-padding {
+    padding-top: 10vh;
+    padding-left: 5%;
 }
 
+.img-fluid {
+    object-fit: cover;
+    width:100%;
+    max-height:200px;
+    display:block;
+}
 
 
 
