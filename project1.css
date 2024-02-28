@@ -30,8 +30,9 @@ body {
 }
 
 .custom-style-1 {
-    height: 500px;
+    height: auto;
     background-color: var(--primary);
+    padding: 5%;
 }
 
 .title-custom-padding {
