@@ -24,31 +24,96 @@ body {
     color: var(--primary);
 }
 
-.row {
-    color: var(--secondary);
+.row {;
     font-family: 'Philosopher';
 }
 
-.custom-style-1 {
+.custom-style-product {
     height: auto;
     background-color: var(--primary);
     padding: 5%;
+    color: var(--secondary)
 }
 
 .title-custom-padding {
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-left: 20px;
 }
+
+.title-custom-features{
+    padding-left: 10%;
+    text-align: left;
+    color:var(--primary);
+    font-family: 'Philosopher';
+    background-color: var(--secondary);
+}
+
+.features-container{
+    background-color: var(--secondary);
+    padding: 5%;
+    text-align:center;
+}
+
+.card {
+    width: 75%;
+    margin: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+    background-color: var(--primary);
+    color:var(--secondary);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.accordion-button {
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    background-color: var(--secondary);
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover{
+    background-color: var(--primary);
+    color:var(--secondary);
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.accordion-item:hover{
+    box-shadow: 0 0 0 rgba(0,0,0,0.1);
+}
+
+.accordion-body {
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    background-color: var(--secondary);
+}
+
 
 .img-fluid {
     object-fit: cover;
     width: 100%;
-    max-height: 200px;
+    max-height: 150px;
     display: block;
 }
 
 footer{
-    background-color: var(--tertiary);
+    background-color: var(--primary);
+    color: var(--secondary);
     margin:0;
     height:50px;
 }
