@@ -142,6 +142,11 @@ footer {
     object-fit: cover;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(175deg) brightness(90%) contrast(90%) !important;
+}
+/* chat gpt helped me change the color of the carousel icons */
 
 /* .slider-wrapper {
     position: relative;
