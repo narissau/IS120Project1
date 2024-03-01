@@ -224,3 +224,9 @@ footer {
     background-color: var(--secondary);
     padding:5%;
 }
+
+.embed-responsive{
+    border: 3px solid var(--primary);
+    border-radius:10px;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.75);
+}
