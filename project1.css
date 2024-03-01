@@ -33,7 +33,7 @@ body {
     font-family: 'Philosopher';
 }
 
-.custom-style-product {
+.container-product {
     height: auto;
     background-color: var(--primary);
     padding: 5%;
@@ -174,3 +174,30 @@ footer {
 .slider-nav a:hover {
     opacity: 1;
 }
+
+.pricing-container{
+    padding: 5%;
+    height: auto;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.pricing-title{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+}
+
+.business-heading{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.individuals-heading{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
