@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     </body>
     <title>ArcGIS Pro</title>
 </head>
@@ -40,9 +41,9 @@
 
 </header>
 
-<div class="container-fluid text-center p-0">
+<!-- <div class="container-fluid text-center p-0">
     <img src="./project-images/geospatial-data-analysis.jpg" alt="GIS Tech" class="img-fluid no-padding">
-</div>
+</div> -->
 
 <body>
 
@@ -64,20 +65,46 @@
                         and unparalleled insights into the world of spatial analysis.
                     </p>
                 </div>
+
                 <div class="col-md-6">
-                    <div class="slider-wrapper">
-                        <div class="slider">
-                            <img id="slide-1" src="./project-images/spatial analysis.jpg" alt="ArcGIS Pro Example 1">
-                            <img id="slide-2" src="./project-images/arcgispro.jpg" alt="ArcGIS Pro Example 2">
-                            <img id="slide-3" src="./project-images/gissoftware.jpg" alt="ArcGIS Pro Example 3">
+                    <div id="carousel" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./project-images/spatial analysis.jpg" class="d-block w-100" alt="ArcGIS Pro Example 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./project-images/arcgispro.jpg" class="d-block w-100" alt="ArcGIS Pro Example 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./project-images/gissoftware.jpg" class="d-block w-100" alt="ArcGIS Pro Example 3">
+                            </div>
                         </div>
-                        <div class="slider-nav">
-                            <a href="#slide-1"></a>
-                            <a href="#slide-2"></a>
-                            <a href="#slide-3"></a>
-                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </a>
                     </div>
                 </div>
+                
+<!-- my first attempt at a carousel did not work and I realized i needed to use bootstrap classes -->
+                <!-- <div class="col-md-6">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <img id="pic-1" src="./project-images/spatial analysis.jpg" alt="ArcGIS Pro Example 1">
+                            <img id="pic-2" src="./project-images/arcgispro.jpg" alt="ArcGIS Pro Example 2">
+                            <img id="pic-3" src="./project-images/gissoftware.jpg" alt="ArcGIS Pro Example 3">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#pic-1"></a>
+                            <a href="#pic-2"></a>
+                            <a href="#pic-3"></a>
+                        </div>
+                    </div>
+                </div> -->
             </div>
     </section>
 

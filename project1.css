@@ -127,9 +127,22 @@ footer {
     color: var(--secondary);
     margin: 0;
     height: 50px;
+    padding:5%;
 }
 
-.slider-wrapper {
+#carousel{
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.75);
+    height: 330px;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+}
+
+
+/* .slider-wrapper {
     position: relative;
     max-width: 48rem;
     margin: 0 auto;
@@ -150,6 +163,7 @@ footer {
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
+    max-width: 100%;
 }
 
 .slider-nav {
@@ -173,7 +187,7 @@ footer {
 
 .slider-nav a:hover {
     opacity: 1;
-}
+} */
 
 .pricing-container{
     padding: 5%;
@@ -201,3 +215,6 @@ footer {
 }
 
 
+.card-text{
+    color:var(--secondary);
+}
