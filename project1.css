@@ -4,6 +4,11 @@
     --tertiary: #466497 !important;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+/* chatgpt helped me with this^ */
+
 body {
     background-color: var(--primary);
     margin: 0;
@@ -35,24 +40,30 @@ body {
     color: var(--secondary)
 }
 
-.title-custom-padding {
+.title-product-padding {
     padding-top: 5vh;
     padding-left: 20px;
 }
 
-.title-custom-features{
-    padding-left: 10%;
-    text-align: left;
-    color:var(--primary);
+.features-title-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-custom-features {
+    padding-top: 2vh;
+    padding-bottom: 20px;
+    color: var(--primary);
     font-family: 'Philosopher';
     background-color: var(--secondary);
 }
 
-.features-container{
+.features-container {
     background-color: var(--secondary);
-    padding: 5%;
-    text-align:center;
+    text-align: center;
 }
+
 
 .card {
     width: 75%;
@@ -65,7 +76,7 @@ body {
 .card-body {
     padding: 20px;
     background-color: var(--primary);
-    color:var(--secondary);
+    color: var(--secondary);
 }
 
 .card-img-top {
@@ -75,16 +86,16 @@ body {
 
 .accordion-button {
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: 1px solid var(--primary);
     border-radius: 5px;
     background-color: var(--secondary);
     transition: background-color 0.3s ease;
 }
 
-.accordion-button:hover{
+.accordion-button:hover {
     background-color: var(--primary);
-    color:var(--secondary);
+    color: var(--secondary);
 }
 
 .accordion-item {
@@ -93,8 +104,8 @@ body {
     transition: box-shadow 0.3s ease;
 }
 
-.accordion-item:hover{
-    box-shadow: 0 0 0 rgba(0,0,0,0.1);
+.accordion-item:hover {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .accordion-body {
@@ -111,11 +122,11 @@ body {
     display: block;
 }
 
-footer{
+footer {
     background-color: var(--primary);
     color: var(--secondary);
-    margin:0;
-    height:50px;
+    margin: 0;
+    height: 50px;
 }
 
 .slider-wrapper {
@@ -163,4 +174,3 @@ footer{
 .slider-nav a:hover {
     opacity: 1;
 }
-
