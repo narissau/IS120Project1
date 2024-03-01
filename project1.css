@@ -218,3 +218,8 @@ footer {
 .card-text{
     color:var(--secondary);
 }
+
+.video-container{
+    background-color: var(--secondary);
+    padding:5%;
+}
